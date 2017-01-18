@@ -1,0 +1,9 @@
+#show_map {
+  height: 81%;
+  width: 96%;
+  padding: 0; margin: 0;
+}
+
+#osm {
+  font-style: italic;
+}
