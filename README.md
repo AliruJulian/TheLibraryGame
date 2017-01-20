@@ -3,6 +3,12 @@ The Library Game
 
 The Library Game is a configurable Gaming-WebApp. The user can solve tasks/quests and collect badges. There are several task types available/implemented like location search, ISBN search or simple questions. It is also possible to connect a task with a location so that the user can find the task there. Everything (Locations, Task, Quests, Badges, etc.) is fully configurable by the admin users. A good application area for the Library Game is a location-based scavenger hunt.
 
+<img src="./doc/LoggedOutScreen.png" height="200"/>
+<img src="./doc/TasksOverview.png" height="200"/>
+<img src="./doc/TasksSearch.png" height="200"/>
+<img src="./doc/ExampleTask.png" height="200"/>
+<img src="./doc/Administration.png" height="200"/>
+
 At the moment the language of the Library Game is German.
 
 ## Table of Contents
@@ -12,6 +18,7 @@ At the moment the language of the Library Game is German.
  * [Copy the Application to your server](#copy-the-application-to-your-server)
  * [Change settings.ini](#change-settings.ini)
  * [Change path in .htaccess and index.html](#change-path-in-.htaccess-and-index.html)
+* [Usage](#usage)
 * [Contributing](#contributing)
 * [Licencing](#licencing)
 
@@ -40,9 +47,7 @@ Change them for your specific needs.
 
 ### 4.) Change path in .htaccess and index.html
 
-The Application folder contains the two files:
--.htaccess
--index.html
+The Application folder contains the two files: .htaccess and index.html.
 In both there is a base path "YOURPATH", which needs to be changed. First search for the following line in the .htaccess file:
 
 ```apacheconf
@@ -58,6 +63,17 @@ Afterwards exchange YOURPATH in the index.html file:
    <base href="/YOURPATH/" >
    ...
 ```
+
+## Usage 
+
+After the installation you can login to your application with the root user:
+
+```ini
+ Username: root
+ Password: 123456
+```
+
+You can change the password inside the application. The root user can change things in the administration area, where tasks, quests, locations and badges can be added and edited.
 
 ## Contributing
 
