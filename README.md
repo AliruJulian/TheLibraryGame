@@ -3,11 +3,11 @@ The Library Game
 
 The Library Game is a configurable Gaming-WebApp. The user can solve tasks/quests and collect badges. There are several task types available/implemented like location search, ISBN search or simple questions. It is also possible to connect a task with a location so that the user can find the task there. Everything (Locations, Task, Quests, Badges, etc.) is fully configurable by the admin users. A good application area for the Library Game is a location-based scavenger hunt.
 
-<img src="./docs/LoggedOutScreen.png" width="200"/>
-<img src="./docs/TasksOverview.png" width="200"/>
-<img src="./docs/TasksSearch.png" width="200"/>
-<img src="./docs/ExampleTask.png" width="200"/>
-<img src="./docs/Administration.png" width="200"/>
+<img src="./docs/LoggedOutScreen.PNG" width="200"/>
+<img src="./docs/TasksOverview.PNG" width="200"/>
+<img src="./docs/TasksSearch.PNG" width="200"/>
+<img src="./docs/ExampleTask.PNG" width="200"/>
+<img src="./docs/Administration.PNG" width="200"/>
 
 At the moment the language of the Library Game is German.
 
