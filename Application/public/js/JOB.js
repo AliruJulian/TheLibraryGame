@@ -42,7 +42,7 @@ JOB = {
 	Stream : null, // The actual video.
 	DecodeStreamActive : false, // Will be set to false when StopStreamDecode() is called.
 	Decoded : [], // Used to enfore the ForceUnique property.
-	DecoderWorker : new Worker("./../public/js/DecoderWorker.js"),
+	DecoderWorker : new Worker("./public/js/DecoderWorker.js"),
 	OrientationCallback : null,
 	// Always call the Init().
 	Init : function() {
@@ -51,7 +51,7 @@ JOB = {
 		JOB.ScanCanvas.height = 480;
 		JOB.ScanContext = JOB.ScanCanvas.getContext("2d");
 		var script  = document.createElement('script');
-  		script.src  = "./../public/js/exif.js";
+  		script.src  = "./public/js/exif.js";
  		script.type = 'text/javascript';
 		document.getElementsByTagName('head').item(0).appendChild(script);
 	},
