@@ -43,19 +43,13 @@ Change them for your specific needs.
 The Application folder contains the two files:
 -.htaccess
 -index.html
-In both there is a base path "YOURPATH", which needs to be changed.
+In both there is a base path "YOURPATH", which needs to be changed. First search for the following line in the .htaccess file:
 
 ```apacheconf
- RewriteEngine on
- RewriteCond %{REQUEST_FILENAME} -s [OR]
- RewriteCond %{REQUEST_FILENAME} -l [OR]
- RewriteCond %{REQUEST_FILENAME} -d
- RewriteRule ^.*$ - [NC,L]
-
  RewriteRule ^(.*) /YOURPATH/index.html [NC,L]
 ```
 
-and
+Afterwards exchange YOURPATH in the index.html file:
 
 ```html
  <!DOCTYPE html>
