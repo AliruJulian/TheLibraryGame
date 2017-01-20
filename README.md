@@ -9,8 +9,8 @@ At the moment the language of the Library Game is German.
 
 * [Installation](#installation)
  * [Install DB](#install-db)
-	* [Copy the Application to your server](#copy-the-application-to-your-server)
-	* [Change settings.ini](#change-settings.ini)
+ * [Copy the Application to your server](#copy-the-application-to-your-server)
+ * [Change settings.ini](#change-settings.ini)
  * [Change path in .htaccess and index.html](#change-path-in-.htaccess-and-index.html)
 * [Contributing](#contributing)
 * [Licencing](#licencing)
